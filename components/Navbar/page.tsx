@@ -1,6 +1,6 @@
 "use client";
 
-import Logo from "../../public/images/Logo.png";
+import Logo from "../../public/images/logo.png";
 import Image from "next/image";
 import { MenuItemProps, menuItems } from "./constant";
 import Link from "next/link";
