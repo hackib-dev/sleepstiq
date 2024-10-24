@@ -17,20 +17,20 @@ import { Reviewers } from "@/components/StorySection/ReviewCard/constants";
 const AboutUs = () => {
   return (
     <>
-      <div className="relative w-full h-full md:h-[400px]   xl:h-screen ">
+      <div className="relative w-full h-[400px]   xl:h-screen ">
         <Image
           src={AboutBgImage}
           alt="Background Image"
           layout="fill"
-          className="absolute z-[-1] md:object-contain xl:object-cover opacity-50 xl:opacity-100"
+          className="absolute z-[-1] object-cover opacity-40 xl:opacity-100"
           loading="lazy"
         />
 
-        <div className="h-full px-5 md:px-16 xl:px-40 pt-16 md:pt-40 space-y-6 py-10 md:py-0 items-center  flex flex-col">
+        <div className="h-full px-5 md:px-16 xl:px-40 pt-16 md:pt-40 space-y-6 py-10 md:py-0 items-start md:items-center  flex flex-col">
           <h1 className="text-primary-blue text-lg ">
             We&apos;re here to help you
           </h1>
-          <p className="text-primary-blue font-bold text-6xl text-center">
+          <p className="text-primary-blue font-bold text-3xl md:text-6xl text-center">
             Relax & Rest
           </p>
         </div>
@@ -41,7 +41,7 @@ const AboutUs = () => {
             About Us
           </p>
 
-          <p className="text-primary-blue  text-sm xl:text-base max-w-[420px]">
+          <p className="text-primary-blue leading-7 text-sm xl:text-base max-w-[420px]">
             When concentrated melatonin is inhaled, in theory, it is instantly
             absorbed by alveoli in the lungs and enters the bloodstream, instead
             of being metabolized by the liver, as would a tablet. Only a small

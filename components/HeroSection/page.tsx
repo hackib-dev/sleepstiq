@@ -6,12 +6,12 @@ import { PartnersLogos } from "@/app/constants";
 
 const HeroSection = () => {
   return (
-    <div className="relative w-full h-fit md:h-[650px]   xl:h-screen ">
+    <div className="relative w-full h-[400px]   xl:h-screen ">
       <Image
         src={BgImage}
         alt="Background Image"
         layout="fill"
-        className="absolute z-[-1] md:object-contain xl:object-cover opacity-50 xl:opacity-100"
+        className="absolute z-[-1] object-cover opacity-50 xl:opacity-100"
         loading="lazy"
       />
 
@@ -19,7 +19,9 @@ const HeroSection = () => {
         <h1 className="text-primary-blue text-lg">
           We&apos;re here to help you
         </h1>
-        <p className="text-primary-blue font-bold text-6xl">Relax & Rest</p>
+        <p className="text-primary-blue font-bold text-3xl md:text-6xl">
+          Relax & Rest
+        </p>
         <p className="text-primary-blue md: xl:max-w-xl">
           With the aid of our Melatonin Sleepstiq, we can assure you that you
           can get quality sleep.
