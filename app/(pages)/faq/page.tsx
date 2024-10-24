@@ -13,7 +13,7 @@ const Faq = () => {
   return (
     <>
       <div className="bg-[#FBF9F2] py-20  md:py-44 px-5 md:px-16 xl:px-40 space-y-5">
-        <p className="text-primary-blue">We're here to help you</p>
+        <p className="text-primary-blue">We&apos;re here to help you</p>
         <p className="text-5xl font-semibold text-primary-blue">
           How can we assist?
         </p>
@@ -91,7 +91,7 @@ const Faq = () => {
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-5">
-                  <AccordionTrigger>Q5: What's in it? </AccordionTrigger>
+                  <AccordionTrigger>Q5: What&apos;s in it? </AccordionTrigger>
                   <AccordionContent>
                     Inhaling on the diffuser will turn the inside liquids
                     (melatonin, lavender, chamomile) into a light mist which you
@@ -102,7 +102,7 @@ const Faq = () => {
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-6">
-                  <AccordionTrigger>Q6: What's not in it?</AccordionTrigger>
+                  <AccordionTrigger>Q6: What&apos;s not in it?</AccordionTrigger>
                   <AccordionContent>
                     Inhaling on the diffuser will turn the inside liquids
                     (melatonin, lavender, chamomile) into a light mist which you
@@ -194,7 +194,7 @@ const Faq = () => {
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-5">
-                  <AccordionTrigger>Q5: What's in it? </AccordionTrigger>
+                  <AccordionTrigger>Q5: What&apos;s in it? </AccordionTrigger>
                   <AccordionContent>
                     Inhaling on the diffuser will turn the inside liquids
                     (melatonin, lavender, chamomile) into a light mist which you
@@ -205,7 +205,7 @@ const Faq = () => {
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-6">
-                  <AccordionTrigger>Q6: What's not in it?</AccordionTrigger>
+                  <AccordionTrigger>Q6: What&apos;s not in it?</AccordionTrigger>
                   <AccordionContent>
                     Inhaling on the diffuser will turn the inside liquids
                     (melatonin, lavender, chamomile) into a light mist which you
@@ -297,7 +297,7 @@ const Faq = () => {
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-5">
-                  <AccordionTrigger>Q5: What's in it? </AccordionTrigger>
+                  <AccordionTrigger>Q5: What&apos;s in it? </AccordionTrigger>
                   <AccordionContent>
                     Inhaling on the diffuser will turn the inside liquids
                     (melatonin, lavender, chamomile) into a light mist which you
@@ -308,7 +308,7 @@ const Faq = () => {
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-6">
-                  <AccordionTrigger>Q6: What's not in it?</AccordionTrigger>
+                  <AccordionTrigger>Q6: What&apos;s not in it?</AccordionTrigger>
                   <AccordionContent>
                     Inhaling on the diffuser will turn the inside liquids
                     (melatonin, lavender, chamomile) into a light mist which you
