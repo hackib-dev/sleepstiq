@@ -12,7 +12,7 @@ import {
 const Faq = () => {
   return (
     <>
-      <div className="bg-[#FBF9F2] py-20  md:py-44 px-5 md:px-16 xl:px-40 space-y-5">
+      <div className="flex flex-col justify-center bg-[#FBF9F2] py-20 min-h-[400px]  md:py-44 px-5 md:px-16 xl:px-40 space-y-5">
         <p className="text-primary-blue">We&apos;re here to help you</p>
         <p className="text-3xl md:text-5xl font-semibold text-primary-blue">
           How can we assist?
@@ -37,7 +37,7 @@ const Faq = () => {
                 Melantonin
               </TabsTrigger>
             </div>
-            <TabsContent value="sleepstiq" className="mt-4">
+            <TabsContent value="sleepstiq" className="mt-4 md:mt-0">
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem
                   value="item-1"
@@ -146,7 +146,7 @@ const Faq = () => {
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem
                   value="item-1"
-                  className="md:border-t border-[#BDBDBD] mt-4"
+                  className="md:border-t border-[#BDBDBD] mt-4 md:mt-0"
                 >
                   <AccordionTrigger>Q1: How does it work?</AccordionTrigger>
                   <AccordionContent>
@@ -251,7 +251,7 @@ const Faq = () => {
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem
                   value="item-1"
-                  className="md:border-t border-[#BDBDBD] mt-4"
+                  className="md:border-t border-[#BDBDBD] mt-4 md:mt-0"
                 >
                   <AccordionTrigger>Q1: How does it work?</AccordionTrigger>
                   <AccordionContent>
