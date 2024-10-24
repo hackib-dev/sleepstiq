@@ -20,7 +20,7 @@ const Footer = () => {
       <Image
         src={Logo}
         alt="logo"
-        className="flex w-20 md:w-32 mx-auto mb-12"
+        className="flex w-20 md:w-32 mx-0 md:mx-auto mb-12"
       />
       <div className="grid grid-cols-3 md:grid-cols-2 xl:grid-cols-12 gap-10">
         <div className="col-span-1">
