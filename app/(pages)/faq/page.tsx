@@ -41,7 +41,7 @@ const Faq = () => {
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem
                   value="item-1"
-                  className="border-t border-[#BDBDBD]"
+                  className="md:border-t border-[#BDBDBD]"
                 >
                   <AccordionTrigger>Q1: How does it work?</AccordionTrigger>
                   <AccordionContent>
