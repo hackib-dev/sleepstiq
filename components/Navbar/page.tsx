@@ -94,7 +94,7 @@ const Navbar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="flex flex-col md:hidden mt-20 py-3">
+        <div className="flex flex-col md:hidden mt-16 py-3">
           <div className="flex flex-col z-50 bg-white text-black h-screen items-center justify-center fixed w-full gap-10">
             {renderMenuItems()}
           </div>
